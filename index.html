@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASAKA CLASSIC RESTAURANT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header marquee {
+            margin: 10px 0;
+        }
+        .nav_links {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        .nav_links li {
+            margin: 0 15px;
+        }
+        .nav_links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav_links a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        main h2 {
+            color: #ff6f61;
+            border-bottom: 2px solid #ff6f61;
+            padding-bottom: 5px;
+        }
+        main p, main li {
+            line-height: 1.6;
+        }
+        main ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        main ul li {
+            background: #ffefc1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="maxresdefault.jpg" alt="Restaurant Image">
+    <marquee><h1 style="color:green">You're warmly welcome to Masaka's Restaurant</h1></marquee>
+</header>
+
+<ul class="nav_links" id="nav_links">
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#menu">MENU</a></li>
+    <li><a href="#events">EVENTS</a></li>
+    <li><a href="#contact">CONTACT US</a></li>
+    <li><a href="#location">LOCATION</a></li>
+</ul>
+
+<main>
+    <h2 id="home">About Us</h2>
+    <p>Welcome to the classic restaurant where you can get delicious dishes well prepared with fresh ingredients and nice flavors. Our dishes are very sweet and you will never regret your choice. Come and have a memorable dining experience at our restaurant!</p>
+    <p>We offer different kinds of dishes:</p>
+
+    <h2 id="menu">Menu</h2>
+    <ul>
+        <li>Burger</li>
+        <li>Pizza</li>
+        <li>Beverages</li>
+        <li>Donuts</li>
+        <li>Fresh Milk</li>
+        <li>Snacks</li>
+        <li>Biryani</li>
+        <li>Bites</li>
+    </ul>
+    
+    <hr>
+    
+    <h2 id="contact">Contact Us</h2>
+    <p>Address: Main Street, City, Country</p>
+    <p>Phone: +255 471-91-828</p>
+    <p>Email: <i>masakarose566@gmail.com</i></p>
+
+    <h2>Order Form</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="order">Number of Orders:</label><br>
+        <input type="number" id="order" name="order"><br><br>
+        <label for="subscribe">Subscribe to Newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</main>
+
+<footer>
+    &copy; 2024 MASAKA CLASSIC RESTAURANT.
+</footer>
+
+</body>
+</html>
