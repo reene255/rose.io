@@ -7,10 +7,14 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
-            color: #333;
             margin: 0;
             padding: 0;
+            background-image: url('pic.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color: #333;
+            
         }
         header {
             background-color: #ff6f61;
@@ -79,12 +83,14 @@
             max-width: 100%;
             height: auto;
         }
+        .for{
+            color: white;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="maxresdefault.jpg" alt="Restaurant Image">
     <marquee><h1 style="color:green">You're warmly welcome to Masaka's Restaurant</h1></marquee>
 </header>
 
@@ -98,8 +104,8 @@
 
 <main>
     <h2 id="home">About Us</h2>
-    <p>Welcome to the classic restaurant where you can get delicious dishes well prepared with fresh ingredients and nice flavors. Our dishes are very sweet and you will never regret your choice. Come and have a memorable dining experience at our restaurant!</p>
-    <p>We offer different kinds of dishes:</p>
+    <p style="color: white;">Welcome to the classic restaurant where you can get delicious dishes well prepared with fresh ingredients and nice flavors. Our dishes are very sweet and you will never regret your choice. Come and have a memorable dining experience at our restaurant!</p>
+    <p style="color: white;">We offer different kinds of dishes:</p>
 
     <h2 id="menu">Menu</h2>
     <ul>
@@ -116,11 +122,11 @@
     <hr>
     
     <h2 id="contact">Contact Us</h2>
-    <p>Address: Main Street, City, Country</p>
-    <p>Phone: +255 471-91-828</p>
-    <p>Email: <i>masakarose566@gmail.com</i></p>
+    <p style="color: white;">Address: Main Street, City, Country</p>
+    <p style="color: white;">Phone: +255 471-91-828</p>
+    <p style="color: white;">Email: <i>masakarose566@gmail.com</i></p>
 
-    <h2>Order Form</h2>
+    <h2 id="for">Order Form</h2>
     <form>
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br><br>
